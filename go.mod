@@ -1,6 +1,7 @@
 module github.com/dexidp/dex
 
 go 1.21
+toolchain go1.22.5
 
 require (
 	cloud.google.com/go/compute/metadata v0.5.2
@@ -37,7 +38,7 @@ require (
 	golang.org/x/net v0.30.0
 	golang.org/x/oauth2 v0.23.0
 	google.golang.org/api v0.203.0
-	google.golang.org/grpc v1.67.1
+	google.golang.org/grpc v1.68.1
 	google.golang.org/protobuf v1.35.1
 )
 
